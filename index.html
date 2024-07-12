@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!---------------------NAVIGATION----------------------->
+
+<div id="main" class="main">
+    <div class="container">
+        <nav>
+            <img src="logo2.png" class="logo">
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#main1">About</a></li>
+                <li><a href="#main2">Projects</a></li>
+                <li><a href="#main3">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+<!---------------------HERO SECTION----------------------->
+
+    <div class="content">
+        <div class="intro-text">
+            <p class="intro">Hi There!,</p>
+            <p class="intro">I'm <span>Alex Argosino</span></p><br>
+        </div>
+
+        <div class="info">
+            <img src="replace.jpg" class="pic">
+            <p class="textanimation">I am into <span class="textspan"></span></p>
+            <div class="introdiv">
+            <p class="longintro">Hi, my name is Alexis Argosino, and I am an IT student at Dalubhasaan ng Lungsod ng Lucena.
+                I am 20 years old, and I've been learning HTML, CSS, and JavaScript 
+                to enhance my skills as an IT professional. 
+                I also have hobbies unrelated to IT; I enjoy reading, playing games and watching movies 
+                in my free time. I am dedicated to continuous learning and 
+                always strive to stay updated in this fast-evolving industry.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------ABOUT SECTION----------------------->
+
+<div id="main1" class="main1">
+    <div class="forflex">
+        <div class="oblong">
+            <div class="border">
+                <img src="second.png" class="second">
+            </div>
+        </div>
+        <div class="text">
+            <h1 class="about">ABOUT ALEX</h1>
+            <h2>Alexis Jaenna B. Argosino</h2>
+            <h3>A bit about Me</h3>
+            <p>My name is Alexis Jaenna B. Argosino, you can call me Alex for short. I am an IT student who's willing to learn new trends and
+            the new developments in this industry. Outside of my academic pursuits, I enjoy reading and watching movies,
+            which help me gain new perspectives and inspire my creativity. I may still be a student, but I also enjoy and spend time on my leisure activities.</p>
+            <hr class="line">
+
+            <div class="moreinfo">
+                <p class="tab active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                <p class="tab" onclick="opentab('hobbies')"><b>Hobbies</b></p>
+                <p class="tab" onclick="opentab('education')"><b>Education</b></p>
+            </div>
+            <div class="tabcontent active-tab" id="skills">
+                <ul>
+                    <li><i class='bx bxl-html5' ></i><span> HTML</span><br>Creating Web Pages</li>
+                    <li><i class='bx bxl-css3' ></i><span> CSS</span><br>Designing Web Interfaces</li>
+                    <li><i class='bx bxl-javascript' ></i><span> JAVASCRIPT</span><br>Building Android Apps</li>
+                </ul>
+            </div>
+            <div class="tabcontent" id="hobbies">
+                <ul>
+                    <li><i class='bx bxs-game' ></i><span> Playing Games</span><br>Play games such as Back4Blood, Minecraft, and etc.</li>
+                    <li><i class='bx bxs-camera-movie' ></i><span> Watching Movies/Series</span><br>My favorite series is Stranger Things, others is a secret</li>
+                    <li><i class='bx bxs-book-alt'></i><span> Reading Stories</span><br>I read books written by Jonaxx, my favorite author</li>
+                </ul>
+            </div>
+            <div class="tabcontent" id="education">
+                <ul>
+                    <li><span>Elementary</span><br>Lucena East VII Elementary School</li>
+                    <li><span>Junior / Senior High School</span><br>Quezon National High School</li>
+                    <li><span>Tertiary</span><br>Dalubhasaan ng Lungsod ng Lucena</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!---------------------PORTFOLIO SECTION----------------------->
+
+<div id="main2" class="main2">
+    <div class="cover"></div>
+    <div class="fleex">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <h1>MY WORKS</h1>
+    <p class="design">HTML <span>CSS</span> JAVASCRIPT</p>
+    <hr class="line1">
+
+    <div class="works">
+        <div class="projects">
+            <div class="projectcontent">
+                <img src="resume.PNG">
+                <div class="layer">
+                    <h3>Online Resume</h3>
+                    <a href="https://adler-a.github.io/online-resume/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projectcontent">
+                <img src="calculatorr.PNG">
+                <div class="layer">
+                    <h3>Online Calculator</h3>
+                    <a href="https://adler-a.github.io/ipt101-calculator-app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projectcontent">
+                <img src="rockpaperscissor.PNG">
+                <div class="layer">
+                    <h3>Rock Paper Scissor Game</h3>
+                    <a href="https://adler-a.github.io/rock-paper-scissor/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://github.com/adler-a" class="showmore">Show more</a>
+</div>
+
+<!---------------------CONTACT SECTION----------------------->
+
+<div id="main3" class="main3">
+    <div class="contact">
+        <h1>CONTACT ME</h1>
+        <p>Your contact details:</p>
+    </div>
+    <div class="details">
+        <form>
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" rows="6" placeholder="Message"></textarea>
+            <button type="submit" class="submitbutton">Submit</button>
+        </form>
+    </div>
+    <div class="icons">
+        <a href="https://www.facebook.com/hellojeanna?mibextid=ZbWKwL"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="https://www.instagram.com/adlerr.a/"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://discordapp.com/users/1206186147261456457"><i class='bx bxl-discord-alt'></i></a>
+    </div>
+
+<!---------------------FOOTER----------------------->
+    
+    <div class="footer">
+        <p>Copyright © GreatStack & How to Web Dev. Made by Alex Argosino</p>
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+    let tablinks = document.getElementsByClassName("tab");
+    let tabcontent = document.getElementsByClassName("tabcontent");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontents of tabcontent){
+            tabcontents.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    ScrollReveal({
+        distance: "80px",
+        duration: 2000,
+        delay: 200,
+    });
+
+    ScrollReveal().reveal(".intro-text, .pic, .longintro", { origin: "top" });
+    ScrollReveal().reveal(".projectcontent, .portfolio-container, .contact form, .icons", {origin: "bottom"});
+    ScrollReveal().reveal(".textanimation, .border, .works, .contact", { origin: "left" });
+    ScrollReveal().reveal(".text, .showmore, .design, .details", { origin: "right" });
+
+
+
+        
+</script>
+    
+</body>
+</html>
